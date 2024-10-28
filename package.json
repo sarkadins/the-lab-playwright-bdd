@@ -1,0 +1,28 @@
+{
+  "name": "the-lab-playwright-bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx bddgen && npx playwright test",
+    "watch:bdd": "nodemon -w ./features -w ./steps -e feature,js,ts --exec \"npx bddgen\"",
+    "watch:pw": "playwright test --ui",
+    "watch": "run-p watch:*",
+    "report": "npx http-server ./cucumber-report -c-1 -o index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarkadins/the-lab-playwright-bdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarkadins/the-lab-playwright-bdd/issues"
+  },
+  "homepage": "https://github.com/sarkadins/the-lab-playwright-bdd#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.8.1",
+    "playwright-bdd": "^7.5.0"
+  }
+}
