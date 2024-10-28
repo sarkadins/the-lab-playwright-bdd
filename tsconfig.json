@@ -1,16 +1,9 @@
 {
   "compilerOptions": {
     "target": "es2021",
-    "module": "node16",
-    "lib": ["esnext", "dom", "DOM.Iterable"],
+    "module": "nodenext",
     "strict": true,
-    "useUnknownInCatchVariables": false,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-    "noEmit": true,
-    "resolveJsonModule": true,
-    "jsx": "react-jsx"
+    "noEmit": true
   },
-  "include": ["**/*.ts", "**/*.tsx", "**/*.mts"],
-  "exclude": ["dist", "test/types-non-strict", "test/types-merge-tests"]
+  "include": ["**/*.ts"]
 }
