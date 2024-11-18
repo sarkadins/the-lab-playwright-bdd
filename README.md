@@ -20,8 +20,7 @@ A Behavior-Driven Development (BDD) testing framework built using [Playwright](h
 
 ## Overview
 
-This repository demonstrates how to integrate Playwright with BDD principles, making test cases more accessible and easy to understand. It is perfect for teams practicing Agile or those focused on collaboration between developers, testers, and stakeholders.
-
+This repository demonstrates how to integrate Playwright with BDD principles, making test cases more accessible and easy to understand. The cases have been implemented to the [The Lab](https://thelab.boozang.com/) website for test automation practice.
 ---
 
 ## Features
